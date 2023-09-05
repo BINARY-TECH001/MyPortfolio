@@ -1,0 +1,161 @@
+.experience__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.experience__container > div{
+    overflow: hidden;
+    width: 72%;
+    gap: 5%;
+    padding: 2.4rem 5rem;
+    border-radius: 1rem;
+    border-radius: 1px solid transparent;
+    transition:  var(--transition);
+    margin-bottom: 2em;
+}
+
+.experience__container > div:nth-child(3){
+    border: 1px solid var(--color-primary-variant);
+    
+}
+
+
+.experience__container > div:nth-child(2){
+    background: transparent;
+}
+
+.intro{
+    color: var(--color-light);
+    text-align: center;
+}
+
+.experience__container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    row-gap: 2rem;
+}
+
+.experience__content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    row-gap: 2rem;
+}
+
+.experience__content2 article{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.eduTitle{
+    text-align: center;
+    font-size: 2em;
+    color: var(--color-primary);
+}
+
+.cert{
+    color: var(--color-primary);
+    font-size: 1.6em;
+}
+
+.text{
+    text-align: center;
+    margin: 1em;
+    color: var(--color-light);
+    font-size: 1.3em;
+}
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon{
+    color: var(--color-primary);
+    margin-top: 6px;
+}
+
+.year{
+    color: var(--color-light);
+}
+
+.tech__img{
+    width: 9em;
+    height: 9em;
+}
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
+
+@media screen and (max-width: 1024px){
+    .experience__container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .experience__container > div{
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .experience__content{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .experience__content2{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    
+    .experience__container > div:nth-child(2){
+        margin-top: 2rem;
+    }
+}
+
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) ===============*/
+
+@media screen and (max-width: 600px){
+    .experience__container{
+        gap: 1rem;
+    }
+
+    .experience__content2{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .intro{
+        margin: 0 1em;
+    }
+    .experience__container > div{
+        margin: 0;
+    }
+
+    .techContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .techContainer img{
+        width: 4em;
+        height: 4em;
+        object-fit: cover;
+    }
+
+    .techContainer p{
+        display: none;
+    }
+}

@@ -1,0 +1,101 @@
+nav{
+    background-color: rgba(0, 0, 0, .3);
+    width: 40%;
+    display: block;
+    padding: 1rem 1.7rem;
+    z-index: 2;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: .8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    flex-direction: column;
+    background-color: transparent;
+    padding: .9rem;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--color-primary);
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.icon{
+    color:  var(--color-light);
+    font-size: 2em;
+}
+
+nav small {
+    color: var(--color-light);
+    font-size: 1.3em;
+}
+
+nav a.active{
+    background-color: var(--color-primary-variant);
+    color: var(--color-light);
+}
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+
+    nav{
+        width: max-content;
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 1520px){
+    nav{
+        width: max-content;
+    }
+}
+/* =================== MEDIA QUERIES (SMALL DEVICES) ===============*/
+
+@media screen and (max-width: 600px){
+    nav{
+        width: max-content;
+        margin: 0 auto;
+        bottom: 1.2em;
+    }
+
+    nav a{
+        font-size: .6em;
+    }
+    nav small{
+        font-size: .6em !important;
+    }
+
+    nav a.active{
+        font-size: 1em;
+    }
+    
+    h1{
+        font-size: 2.2rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    h5{
+        font-size: 1rem;
+    }
+    
+}

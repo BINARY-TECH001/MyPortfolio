@@ -1,0 +1,120 @@
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.service__head{
+    background-color: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0  0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, .1);
+}
+
+.service__head h3{
+    color: var(--color-bg);
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
+
+@media screen and (max-width: 1024px){
+    .services__container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service{
+        height: auto;
+    }
+}
+
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) ===============*/
+
+@media screen and (max-width: 600px){
+    .services__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }    
+}
+
+
+
+.portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio_item{
+    background-color: var(--color-bg-variant);
+    padding: 2rem !important;
+    border-radius: .5rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio_item:hover{
+    border-color: var(--color-primary-variant);
+    background-color: var(--color-bg);
+}
+
+.portfolio_item .icon{
+    color: var(--color-primary);
+    font-size: 4em;
+}
+
+.service__title{
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.portfolio_item h3{
+    font-size: 2em;
+}
+
+.portfolio_item span{
+    font-size: 1.2em;
+    color: var(--color-light);
+    text-align: center;
+}
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
+
+@media screen and (max-width: 1024px){
+    .portfolio_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) ===============*/
+
+@media screen and (max-width: 600px){
+   .portfolio_container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   }
+    h1{
+        font-size: 2.3rem;
+    }
+    
+    h2{
+        font-size: 2.5rem;
+    }
+    
+    h5{
+        font-size: 1rem;
+    }
+    .service__title{
+        font-size: .8em;
+    }
+}
