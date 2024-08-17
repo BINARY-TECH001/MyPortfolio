@@ -30,7 +30,7 @@ const data = [
     title: "Binary Social Media Application UI",
     github: "https://github.com/BINARY-TECH001/SocialMedia-UI",
     desc: "A Web Social media User Interface designed using React.Js. It contains the authentication pages (Login & Register), Story/Home page, comment, like, post and profile page.",
-    demo: "#"
+    demo: "https://socialuibybinary.vercel.app/"
   },
   {
     id: 3,
