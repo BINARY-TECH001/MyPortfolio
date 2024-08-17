@@ -9,6 +9,7 @@ import Img6 from "../../assets/IgClone.JPG";
 import React from "react";
 import blog from "../../assets/blog.JPG";
 import wordle from "../../assets/wordle.JPG";
+import ecommerce from "../../assets/ecommerce.png"
 
 // ..
 AOS.init({
@@ -18,6 +19,14 @@ AOS.init({
 const data = [
   {
     id: 1,
+    img: ecommerce,
+    title: "Ecommerce Website",
+    github: "https://github.com/BINARY-TECH001/E_commerceClient",
+    desc: "I developed a dynamic eCommerce platform using React.js, designed to provide a seamless and interactive shopping experience. The website features a responsive user interface, real-time product updates, and a smooth checkout process. Leveraging React's component-based architecture, the site offers efficient state management and a highly performant user experience. Key features include a customizable product catalog, secure payment integration, and an intuitive admin dashboard for managing inventory and orders. This project showcases my ability to build scalable and user-friendly web applications, optimizing both functionality and aesthetic appeal.",
+    demo: "#"
+  },
+  {
+    id: 10,
     img: Img1,
     title: "Meeting Minutes Management System",
     github: "https://github.com/MinuteApp",
