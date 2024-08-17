@@ -8,6 +8,7 @@ import wordle from "../../assets/wordle.JPG";
 import ecommerce from "../../assets/ecommerce.png"
 import bitzsales from "../../assets/bitzsales.png"
 import blog from "../../assets/blog.png"
+import valuwise from "../../assets/valuwise.png"
 
 // ..
 AOS.init({
@@ -40,6 +41,14 @@ const data = [
     demo: "https://socialuibybinary.vercel.app/"
   },
   {
+    id: 2,
+    img: valuwise,
+    title: "ValuWise - Track Product Prices Effortlessly",
+    github: "https://github.com/BINARY-TECH001/SocialMedia-UI",
+    desc: "A Web App Built with Next.js, this app offers powerful, self-serve product and growth analytics. It tracks product price changes and sends notifications mail, helping users buy when prices drop and optimize their purchases effectively.",
+    demo: "https://valuwise.vercel.app//"
+  },
+  {
     id: 3,
     img: blog,
     title: "Binary Blog",
@@ -47,38 +56,6 @@ const data = [
     desc: "I Created a blog site using React.js, featuring a modern, responsive design and intuitive navigation. It supports dynamic content management, real-time updates, and a seamless user experience for readers and authors alike.",
     demo: "https://blogbybinary.vercel.app/"
   },
-  // {
-  //   id: 10,
-  //   img: Img1,
-  //   title: "Meeting Minutes Management System",
-  //   github: "https://github.com/MinuteApp",
-  //   desc: "A web application for taking meetingss minutes by recording the meeting audio and video and transcribing meeting audio text to generate meeting minutes. It also helps in keeping, retrieving and managing meeting minutes.",
-  //   demo: "#"
-  // },
-  // {
-  //   id: 3,
-  //   img: Img3,
-  //   title: "Employees wages Calculator & Report",
-  //   github: "https://github.com//BINARY-TECH001/",
-  //   desc: "A web based application designed using PHP that helps manage employee wages and calculations.",
-  //   demo: "#"
-  // },
-  // {
-  //   id: 6,
-  //   img: Img6,
-  //   title: "Instagram Page Clone Using React & Dexie",
-  //   github: "https://github.com/BINARY-TECH001/ig-clone/",
-  //   desc: "Cloned the Instagram profile page using React.Js and the Dexie for storage.",
-  //   demo: "https://binarytech-IgClone.netlify.app"
-  // },
-  // {
-  //   id: 7,
-  //   img: blog,
-  //   title: "Binary Blog Site",
-  //   github: "https://github.com/BINARY-TECH001/BINARY-BLOG",
-  //   desc: "Blog site desiigned using React.Js. It contains 5+ pages including authentication System, Comment, Posting Features and lots more.",
-  //   demo: "#"
-  // },
   {
     id: 9,
     img: wordle,
