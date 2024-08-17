@@ -44,7 +44,7 @@ const data = [
     id: 2,
     img: valuwise,
     title: "ValuWise - Track Product Prices Effortlessly",
-    github: "https://github.com/BINARY-TECH001/SocialMedia-UI",
+    github: "https://github.com/BINARY-TECH001/PriseWise",
     desc: "A Web App Built with Next.js, this app offers powerful, self-serve product and growth analytics. It tracks product price changes and sends notifications mail, helping users buy when prices drop and optimize their purchases effectively.",
     demo: "https://valuwise.vercel.app//"
   },
