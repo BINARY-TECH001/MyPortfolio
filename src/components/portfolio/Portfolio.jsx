@@ -71,14 +71,14 @@ const data = [
   //   desc: "Cloned the Instagram profile page using React.Js and the Dexie for storage.",
   //   demo: "https://binarytech-IgClone.netlify.app"
   // },
-  {
-    id: 7,
-    img: blog,
-    title: "Binary Blog Site",
-    github: "https://github.com/BINARY-TECH001/BINARY-BLOG",
-    desc: "Blog site desiigned using React.Js. It contains 5+ pages including authentication System, Comment, Posting Features and lots more.",
-    demo: "#"
-  },
+  // {
+  //   id: 7,
+  //   img: blog,
+  //   title: "Binary Blog Site",
+  //   github: "https://github.com/BINARY-TECH001/BINARY-BLOG",
+  //   desc: "Blog site desiigned using React.Js. It contains 5+ pages including authentication System, Comment, Posting Features and lots more.",
+  //   demo: "#"
+  // },
   {
     id: 9,
     img: wordle,
