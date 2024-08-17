@@ -2,15 +2,12 @@ import "aos/dist/aos.css";
 import "./portfolio.css";
 import AOS from "aos";
 import Github from "../../assets/GithubSearch.JPG";
-import Img1 from "../../assets/MinuteApp.PNG";
 import socialUi from "../../assets/socialUi.png";
-import Img3 from "../../assets/wages.PNG";
-import Img6 from "../../assets/IgClone.JPG";
 import React from "react";
-import blog from "../../assets/blog.JPG";
 import wordle from "../../assets/wordle.JPG";
 import ecommerce from "../../assets/ecommerce.png"
 import bitzsales from "../../assets/bitzsales.png"
+import blog from "../../assets/blog.png"
 
 // ..
 AOS.init({
@@ -41,6 +38,14 @@ const data = [
     github: "https://github.com/BINARY-TECH001/SocialMedia-UI",
     desc: "A Web Social media User Interface designed using React.Js. It contains the authentication pages (Login & Register), Story/Home page, comment, like, post and profile page.",
     demo: "https://socialuibybinary.vercel.app/"
+  },
+  {
+    id: 3,
+    img: blog,
+    title: "Binary Blog",
+    github: "https://github.com/BINARY-TECH001/BINARY-BLOG",
+    desc: "I Created a blog site using React.js, featuring a modern, responsive design and intuitive navigation. It supports dynamic content management, real-time updates, and a seamless user experience for readers and authors alike.",
+    demo: "https://blogbybinary.vercel.app/"
   },
   // {
   //   id: 10,
