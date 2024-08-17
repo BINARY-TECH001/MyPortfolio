@@ -22,7 +22,7 @@ const data = [
     img: ecommerce,
     title: "Ecommerce Website",
     github: "https://github.com/BINARY-TECH001/E_commerceClient",
-    desc: "I developed a dynamic eCommerce platform using React.js, designed to provide a seamless and interactive shopping experience. The website features a responsive user interface, real-time product updates, and a smooth checkout process. Leveraging React's component-based architecture, the site offers efficient state management and a highly performant user experience. Key features include a customizable product catalog, secure payment integration, and an intuitive admin dashboard for managing inventory and orders. This project showcases my ability to build scalable and user-friendly web applications, optimizing both functionality and aesthetic appeal.",
+    desc: "I built a React.js eCommerce platform with a responsive UI, real-time updates, and smooth checkout. Features include a customizable catalog, secure payments, and an intuitive admin dashboard, ensuring a seamless user experience.",
     demo: "#"
   },
   {
