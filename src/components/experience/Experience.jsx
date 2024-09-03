@@ -169,7 +169,7 @@ const Experience = () => {
               })
             }
             </div>
-        {/* </div> */}
+        </div>
 
         {/* Education Data starts here */}
         <div className="experience__Backend"  data-aos="fade-up" data-aos-duration="3000">
@@ -190,7 +190,6 @@ const Experience = () => {
               })
             }
             </div>
-        </div>
         </div>
       </div>
     </section>
