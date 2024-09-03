@@ -96,6 +96,32 @@ const educationData = [
     year: '2020 - 2022',
   },
 ]
+const experienceData = [
+  {
+    id: 1,
+    role: 'Frontend Developer',
+    comp: "Jobskills City",
+    year: '2024 - Till Date',
+  },
+  {
+    id: 2,
+    role: 'Frontend Developer',
+    comp: "Techzilla.Inc",
+    year: '2023 - 2024',
+  },
+  {
+    id: 3,
+    role: 'Frontend Developer Instructor',
+    comp: "Moor Tech Community",
+    year: '2021 - 2021',
+  },
+  {
+    id: 4,
+    role: 'Frontend Developer Instructor',
+    comp: "Websmanagers",
+    year: '2020 - 2021',
+  },
+]
 
 const Experience = () => {
   return (
@@ -124,6 +150,28 @@ const Experience = () => {
                 </div>
         </div>
 
+        {/* Work Experience starts here */}
+        <div className="experience__Backend"  data-aos="fade-up" data-aos-duration="3000">
+        <p className='eduTitle'> Work Experience </p>
+        <div className="underline"></div>
+          <div className="experience__content2">
+            {
+              experienceData.map(({ id, role, comp, year })=>{
+                return (
+            <article className="experience__details" key={id}>
+              <h5 className="cert"> {role} </h5>
+              <div className="schoolYear">
+                <p> {comp} </p>
+                <small className='year'> {year} </small>
+              </div>
+            </article>
+                )
+              })
+            }
+            </div>
+        </div>
+
+        {/* Education Data starts here */}
         <div className="experience__Backend"  data-aos="fade-up" data-aos-duration="3000">
         <p className='eduTitle'> Education </p>
         <div className="underline"></div>
@@ -143,7 +191,6 @@ const Experience = () => {
             }
             </div>
         </div>
-        
       </div>
     </section>
   )
