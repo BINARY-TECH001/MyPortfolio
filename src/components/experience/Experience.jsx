@@ -70,32 +70,32 @@ const skillData = [
   },
 ]
 
-const educationData = [
-  {
-    id: 1,
-    cert: 'JSCE',
-    sch: "Al-Iman Group Of Schools, Oyo",
-    year: '2007 - 2012',
-  },
-  {
-    id: 2,
-    cert: 'SSCE',
-    sch: "God' Blessing College, Oyo",
-    year: '2012 - 2018',
-  },
-  {
-    id: 3,
-    cert: 'Software Tech Certified',
-    sch: "NPOWER, Federal Republic Nigeria Empowerment",
-    year: '2020 - 2021',
-  },
-  {
-    id: 4,
-    cert: 'ND, Computer Science',
-    sch: "FCAH&PT Ibadan",
-    year: '2020 - 2022',
-  },
-]
+// const educationData = [
+//   {
+//     id: 1,
+//     cert: 'JSCE',
+//     sch: "Al-Iman Group Of Schools, Oyo",
+//     year: '2007 - 2012',
+//   },
+//   {
+//     id: 2,
+//     cert: 'SSCE',
+//     sch: "God' Blessing College, Oyo",
+//     year: '2012 - 2018',
+//   },
+//   {
+//     id: 3,
+//     cert: 'Software Tech Certified',
+//     sch: "NPOWER, Federal Republic Nigeria Empowerment",
+//     year: '2020 - 2021',
+//   },
+//   {
+//     id: 4,
+//     cert: 'ND, Computer Science',
+//     sch: "FCAH&PT Ibadan",
+//     year: '2020 - 2022',
+//   },
+// ]
 const experienceData = [
   {
     id: 1,
@@ -172,7 +172,7 @@ const Experience = () => {
         </div>
 
         {/* Education Data starts here */}
-        <div className="experience__Backend"  data-aos="fade-up" data-aos-duration="3000">
+        {/* <div className="experience__Backend"  data-aos="fade-up" data-aos-duration="3000">
         <p className='eduTitle'> Education </p>
         <div className="underline"></div>
           <div className="experience__content2">
@@ -190,7 +190,7 @@ const Experience = () => {
               })
             }
             </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
