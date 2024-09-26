@@ -1,3 +1,4 @@
+import React from 'react';
 import "./index.css";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";

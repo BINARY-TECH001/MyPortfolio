@@ -1,3 +1,4 @@
+import React from 'react';
 import "aos/dist/aos.css";
 import "./services.css";
 import AOS from "aos";

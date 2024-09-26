@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "aos/dist/aos.css";
 import "./experience.css";
 import AOS from "aos";

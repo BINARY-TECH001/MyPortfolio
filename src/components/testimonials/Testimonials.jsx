@@ -1,3 +1,4 @@
+import React from 'react';
 import "aos/dist/aos.css";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -8,7 +9,6 @@ import AVT1 from "../../assets/abu.jpg";
 import AVT2 from "../../assets/ade.jpg";
 import AVT3 from "../../assets/alameen.png";
 import AVT4 from "../../assets/bg.png";
-import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
