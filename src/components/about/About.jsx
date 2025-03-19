@@ -35,7 +35,7 @@ const about = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small> 3+ Years Working </small>
+              <small> 4+ Years Working </small>
             </article>
 
             <article className="about__card">
@@ -51,13 +51,11 @@ const about = () => {
             </article>
           </div>
           <p>
-            Hey, I’m Mubarak Abdulrafiu—a passionate software developer who thrives on building intuitive and scalable solutions. I specialize in JavaScript, TypeScript, and Next.js, with deep expertise in React, Node.js, and Express.js.
+            Hey, I’m Mubarak Abdulrafiu—a passionate software developer specializing in JavaScript, TypeScript, Next.js, React.js. I build scalable, user-friendly solutions that solve real-world problems.
             <br />
-            Beyond coding, I’m a strong communicator who enjoys breaking down complex ideas and collaborating with clients to turn their visions into reality. 
+            I thrive on collaboration, breaking down complex ideas, and delivering clean, efficient code. Beyond development, I love sharing knowledge, mentoring others, and contributing to a solution-driven tech community.
             <br />
-            Over the years, I’ve built a variety of projects using modern web technologies, always striving for clean, efficient, and impactful code.
-            <br />
-            For me, software development isn’t just about writing code—it’s about creating experiences, solving real-world problems, and continuously learning. Let’s build something amazing together!
+            For me, coding isn’t just about writing code—it’s about creating impact. Let’s build something amazing together!
           </p>
 
           <div className="about__socials">

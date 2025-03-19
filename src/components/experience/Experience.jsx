@@ -101,7 +101,7 @@ const skillData = [
 const experienceData = [
   {
     id: 1,
-    role: 'Frontend Developer',
+    role: 'Senior Frontend Engineer',
     comp: "Our Property NG",
     year: '2025 - Till Date',
   },
