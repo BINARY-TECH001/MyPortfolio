@@ -9,12 +9,15 @@ import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
+import { Toaster } from 'sonner';
+// import { FloatingDockDemo } from './components/nav/doc';
 
 function App() {
   return (
     <>
       <Header />
       <Nav />
+      {/* <FloatingDockDemo /> */}
       <About />
       <Experience />
       <Services />

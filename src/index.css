@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,7 +11,7 @@
     overflow-x: hidden;
 }
 
-:root{
+:root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
@@ -26,74 +26,92 @@
     --transition: all 400ms ease;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-body{
- font-family: "Poppins", sans-serif;
- background-color: var(--color-bg);
- color: var(--color-white);
- line-height: 1.7;
- /* background-image: url(); */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    /* background-image: url(); */
 }
 
 /* ============== GENERAL STYLES ================= */
-.container{
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
+}
+
+
+#portal {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#portal>* {
+    position: absolute;
+    pointer-events: all;
+}
+
+.sonner-toaster {
+    z-index: 9999;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5{
+h5 {
     font-weight: 500;
 }
 
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
-h2{
+h2 {
     font-size: 3rem;
 }
 
-h5{
+h5 {
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
 
-section{
+section {
     margin-top: 8rem;
     height: auto;
 }
 
-section > h2, section > h5{
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-light);
 }
 
-section > h2{
+section>h2 {
     color: var(--color-primary);
 }
 
-.text-light{
+.text-light {
     color: var(--color-light);
 }
 
-a{
+a {
     color: var(--color-primary);
     transition: var(--transition);
 }
 
-a:hover{
+a:hover {
     color: var(--color-white);
 }
 
@@ -104,9 +122,9 @@ a:hover{
     background: var(--color-primary-variant);
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-.btn{
+.btn {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -117,18 +135,18 @@ a:hover{
     transition: var(--transition);
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: var(--color-primary);
     color: var(--color-bg);
 }
 
-img{
+img {
     display: block;
     width: 100%;
     object-fit: cover;
@@ -136,12 +154,12 @@ img{
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
 
-@media screen and (max-width: 1024px){
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         width: var(--container-width-md);
     }
 
-    section{
+    section {
         margin-top: 6rem;
     }
 }
@@ -149,25 +167,25 @@ img{
 
 /* =================== MEDIA QUERIES (SMALL DEVICES) ===============*/
 
-@media screen and (max-width: 600px){
-    .container{
+@media screen and (max-width: 600px) {
+    .container {
         width: var(--container-width-sm);
     }
 
-    section{
+    section {
         margin-bottom: 2rem;
     }
 
-    h1{
+    h1 {
         font-size: 2rem;
     }
-    
-    h2{
+
+    h2 {
         font-size: 1.8rem;
     }
-    
-    h5{
+
+    h5 {
         font-size: 1rem;
     }
-    
+
 }
