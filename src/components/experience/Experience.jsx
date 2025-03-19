@@ -14,6 +14,7 @@ import node from "../../assets/tech/nodejs.png";
 import react from "../../assets/tech/reactjs.png";
 import redux from "../../assets/tech/redux.png";
 import tailwind from "../../assets/tech/tailwind.png";
+import nextjs from "../../assets/tech/nextjs.png";
 import threejs from "../../assets/tech/threejs.svg";
 
 // ..
@@ -43,13 +44,17 @@ const skillData = [
     img: react,
   },
   {
+    skill: "Next.Js",
+    img: nextjs,
+  },
+  {
     skill: "Node.Js",
     img: node,
   },
-  {
-    skill: "Docker",
-    img: docker,
-  },
+  // {
+  //   skill: "Docker",
+  //   img: docker,
+  // },
   {
     skill: "Git",
     img: Git,
