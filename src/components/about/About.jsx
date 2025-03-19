@@ -50,14 +50,14 @@ const about = () => {
               <small> 20+ Completed </small>
             </article>
           </div>
-            <p>
-              I'm a skilled software developer with experience in Javascript and
-              expertise in frameworks like React, Node.js and Express.js. I'm a
-              quick learner and collaborate closely with clients to create
-              efficient, scalable, user-friendly solutions that solve real-world
-              problems. I love being part of a solution driven tech community. I
-              love to teach others about web development and I've made a lot of
-              projects with multiple web technologies.
+          <p>
+            Hey, I’m Mubarak Abdulrafiu—a passionate software developer who thrives on building intuitive and scalable solutions. I specialize in JavaScript, TypeScript, and Next.js, with deep expertise in React, Node.js, and Express.js.
+            <br />
+            Beyond coding, I’m a strong communicator who enjoys breaking down complex ideas and collaborating with clients to turn their visions into reality. 
+            <br />
+            Over the years, I’ve built a variety of projects using modern web technologies, always striving for clean, efficient, and impactful code.
+            <br />
+            For me, software development isn’t just about writing code—it’s about creating experiences, solving real-world problems, and continuously learning. Let’s build something amazing together!
           </p>
 
           <div className="about__socials">

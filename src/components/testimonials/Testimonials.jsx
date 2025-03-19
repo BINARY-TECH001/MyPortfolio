@@ -1,8 +1,10 @@
 import React from 'react';
 import "aos/dist/aos.css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "swiper/css/bundle"
+import "swiper/swiper.min.css";
 import "./testimonials.css";
 import AOS from "aos";
 import AVT1 from "../../assets/abu.jpg";
@@ -33,7 +35,7 @@ const data = [
     name: "Ademola Ishola",
     review: "With Binary Tech's help, we were able to increase the functionality of our website dramatically while cutting our costs. Our Website is much more easy to maintain. We could not be more happy with our new website! Thanks Binary Tech!"
   },
-  { 
+  {
     id: 3,
     avatar: AVT4,
     name: "Abdulrafiu Mubarak",
@@ -52,33 +54,33 @@ const Testimonials = () => {
     <section id="testimonials" data-aos="zoom-in-down">
       <h5> Review from clients </h5>
       <h2> Testimonials </h2>
-      <div className="underline"></div> 
+      <div className="underline"></div>
 
       <Swiper className="container testimonials__container"
-      modules={[Pagination]}
-      spaceBetween={40}
-      slidesPerView={1}
-      pagination={{ clickable: true }}
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
       >
         {
-          data.map(({id, avatar, name, review})=>{
-          return(
-        <SwiperSlide className="testimonial" key={id}>
-          <div className="client__avatar">
-            <img src={avatar} alt="Avatar One" />
-          </div>
-            <h5 className='client__name'>{name}</h5>
-            <div className="review">
-              <FaQuoteLeft className='quote'/>
-                <small className='client__review'>
-                  {review}
-                </small>
+          data.map(({ id, avatar, name, review }) => {
+            return (
+              <SwiperSlide className="testimonial" key={id}>
+                <div className="client__avatar">
+                  <img src={avatar} alt="Avatar One" />
                 </div>
-        </SwiperSlide>
+                <h5 className='client__name'>{name}</h5>
+                <div className="review">
+                  <FaQuoteLeft className='quote' />
+                  <small className='client__review'>
+                    {review}
+                  </small>
+                </div>
+              </SwiperSlide>
             )
           })
         }
-      
+
       </Swiper>
     </section>
   )

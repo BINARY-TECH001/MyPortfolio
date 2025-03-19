@@ -102,8 +102,14 @@ const experienceData = [
   {
     id: 1,
     role: 'Frontend Developer',
+    comp: "Our Property NG",
+    year: '2025 - Till Date',
+  },
+  {
+    id: 1,
+    role: 'Frontend Developer',
     comp: "Jobskills City",
-    year: '2024 - Till Date',
+    year: '2024 - 2025',
   },
   {
     id: 2,
@@ -111,12 +117,12 @@ const experienceData = [
     comp: "Techzilla.Inc",
     year: '2023 - 2024',
   },
-  {
-    id: 3,
-    role: 'Frontend Developer Instructor',
-    comp: "Moor Tech Community",
-    year: '2021 - 2021',
-  },
+  // {
+  //   id: 3,
+  //   role: 'Frontend Developer Instructor',
+  //   comp: "Moor Tech Community",
+  //   year: '2021 - 2021',
+  // },
   {
     id: 4,
     role: 'Frontend Developer Instructor',
@@ -136,41 +142,41 @@ const Experience = () => {
         <h4 className='intro'> I am an highly skilled and motivated individual wiith a strong background in the following technologies </h4>
         <div className="experience__frontend">
 
-        <div className="experience__content">
-          {
-          skillData.map(({skill, img})=>{
-            return(
-              <article className="experience__details" key={img}>
-              <div className='techContainer'>
-                <img className='tech__img' src={img} alt="Technology" />
-              <p className="text">{skill}</p>
-              </div>
-            </article>
-                   )
-                  })
-                }
-                </div>
-        </div>
-
-        {/* Work Experience starts here */}
-        <div className="experience__Backend"  data-aos="fade-up" data-aos-duration="3000">
-        <p className='eduTitle'> Work Experience </p>
-        <div className="underline"></div>
-          <div className="experience__content2">
+          <div className="experience__content">
             {
-              experienceData.map(({ id, role, comp, year })=>{
+              skillData.map(({ skill, img }) => {
                 return (
-            <article className="experience__details" key={id}>
-              <h5 className="cert"> {role} </h5>
-              <div className="schoolYear">
-                <p> {comp} </p>
-                <small className='year'> {year} </small>
-              </div>
-            </article>
+                  <article className="experience__details" key={img}>
+                    <div className='techContainer'>
+                      <img className='tech__img' src={img} alt="Technology" />
+                      <p className="text">{skill}</p>
+                    </div>
+                  </article>
                 )
               })
             }
-            </div>
+          </div>
+        </div>
+
+        {/* Work Experience starts here */}
+        <div className="experience__Backend" data-aos="fade-up" data-aos-duration="3000">
+          <p className='eduTitle'> Work Experience </p>
+          <div className="underline"></div>
+          <div className="experience__content2">
+            {
+              experienceData.map(({ id, role, comp, year }) => {
+                return (
+                  <article className="experience__details" key={id}>
+                    <h5 className="cert"> {role} </h5>
+                    <div className="schoolYear">
+                      <p> {comp} </p>
+                      <small className='year'> {year} </small>
+                    </div>
+                  </article>
+                )
+              })
+            }
+          </div>
         </div>
 
         {/* Education Data starts here */}
